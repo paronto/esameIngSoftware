@@ -1,9 +1,0 @@
-# Cartelle di build e distribuzione
-build/
-dist/
-
-# File di configurazione di PyInstaller
-*.spec
-
-# Cache di Python
-__pycache__/
