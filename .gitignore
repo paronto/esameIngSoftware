@@ -1,6 +1,9 @@
-# File e cartelle di build generati automaticamente
+# Cartelle di build e distribuzione
 build/
 dist/
 
-# Altri file comuni da ignorare
+# File di configurazione di PyInstaller
 *.spec
+
+# Cache di Python
+__pycache__/
