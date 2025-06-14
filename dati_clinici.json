@@ -1,4 +1,29 @@
 {
+    "pazienti": [
+        {
+            "__class__": "Paziente",
+            "id_utente": "P100",
+            "nome": "prova",
+            "cognome": "paziente",
+            "email": "provaPaziente",
+            "password": "pass",
+            "medico_riferimento_id": "M101",
+            "misurazioni": [],
+            "farmaci_assunti": [],
+            "terapia_prescritta": null,
+            "info_cliniche": {}
+        }
+    ],
+    "medici": [
+        {
+            "__class__": "Medico",
+            "id_utente": "M101",
+            "nome": "prova",
+            "cognome": "medico",
+            "email": "provaMedico",
+            "password": "pass"
+        }
+    ],
     "admins": [
         {
             "__class__": "Admin",

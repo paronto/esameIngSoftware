@@ -1,0 +1,6 @@
+# File e cartelle di build generati automaticamente
+build/
+dist/
+
+# Altri file comuni da ignorare
+*.spec
