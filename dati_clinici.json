@@ -1,0 +1,189 @@
+{
+    "pazienti": [
+        {
+            "__class__": "Paziente",
+            "id_utente": "P01",
+            "nome": "Giuseppe",
+            "cognome": "Bianchi",
+            "email": "g.bianchi@email.it",
+            "password": "pass",
+            "medico_riferimento_id": "M01",
+            "misurazioni": [
+                {
+                    "__class__": "Misurazione",
+                    "valore_glicemia": 160,
+                    "momento": "dopo pranzo",
+                    "sintomi": [
+                        "un po' di spossatezza"
+                    ],
+                    "data_ora": "2025-06-08T17:32:28.841126"
+                },
+                {
+                    "__class__": "Misurazione",
+                    "valore_glicemia": 100,
+                    "momento": "prima pranzo",
+                    "sintomi": [],
+                    "data_ora": "2025-06-08T17:50:00.962740"
+                },
+                {
+                    "__class__": "Misurazione",
+                    "valore_glicemia": 180,
+                    "momento": "prima colazione",
+                    "sintomi": [],
+                    "data_ora": "2025-06-08T17:50:07.660245"
+                },
+                {
+                    "__class__": "Misurazione",
+                    "valore_glicemia": 280,
+                    "momento": "prima colazione",
+                    "sintomi": [],
+                    "data_ora": "2025-06-08T17:54:01.391518"
+                },
+                {
+                    "__class__": "Misurazione",
+                    "valore_glicemia": 290,
+                    "momento": "dopo colazione",
+                    "sintomi": [],
+                    "data_ora": "2025-06-08T18:00:16.821483"
+                },
+                {
+                    "__class__": "Misurazione",
+                    "valore_glicemia": 110,
+                    "momento": "prima colazione",
+                    "sintomi": [],
+                    "data_ora": "2025-06-08T18:04:21.040581"
+                },
+                {
+                    "__class__": "Misurazione",
+                    "valore_glicemia": 200,
+                    "momento": "prima colazione",
+                    "sintomi": [],
+                    "data_ora": "2025-06-08T18:04:28.705689"
+                },
+                {
+                    "__class__": "Misurazione",
+                    "valore_glicemia": 150,
+                    "momento": "prima colazione",
+                    "sintomi": [],
+                    "data_ora": "2025-06-08T18:38:23.567020"
+                },
+                {
+                    "__class__": "Misurazione",
+                    "valore_glicemia": 250,
+                    "momento": "prima colazione",
+                    "sintomi": [],
+                    "data_ora": "2025-06-08T18:49:43.220201"
+                },
+                {
+                    "__class__": "Misurazione",
+                    "valore_glicemia": 160,
+                    "momento": "prima colazione",
+                    "sintomi": [],
+                    "data_ora": "2025-06-11T21:51:15.392203"
+                }
+            ],
+            "farmaci_assunti": [
+                {
+                    "__class__": "FarmacoAssunto",
+                    "farmaco_nome": "paracetamolot",
+                    "quantita": "0.5kg",
+                    "data_ora": "2025-06-08T18:00:07.843593"
+                },
+                {
+                    "__class__": "FarmacoAssunto",
+                    "farmaco_nome": "paracetamolot",
+                    "quantita": "0.5kg",
+                    "data_ora": "2025-06-08T18:04:37.031142"
+                },
+                {
+                    "__class__": "FarmacoAssunto",
+                    "farmaco_nome": "medicina per il diabete",
+                    "quantita": "600mg",
+                    "data_ora": "2025-06-08T18:38:15.429717"
+                },
+                {
+                    "__class__": "FarmacoAssunto",
+                    "farmaco_nome": "medicina per il diabete",
+                    "quantita": "600mg",
+                    "data_ora": "2025-06-08T18:44:44.533907"
+                },
+                {
+                    "__class__": "FarmacoAssunto",
+                    "farmaco_nome": "medicina per il diabete",
+                    "quantita": "600mg",
+                    "data_ora": "2025-06-08T18:49:33.087165"
+                },
+                {
+                    "__class__": "FarmacoAssunto",
+                    "farmaco_nome": "medicina per il diabete",
+                    "quantita": "600mg",
+                    "data_ora": "2025-06-11T21:51:09.736796"
+                }
+            ],
+            "terapia_prescritta": {
+                "__class__": "Terapia",
+                "farmaco": "medicina per il diabete",
+                "assunzioni_giornaliere": 10,
+                "quantita": "600mg",
+                "indicazioni": "non prendere a stomaco vuoto",
+                "medico_prescrittore_id": "M01"
+            },
+            "info_cliniche": {}
+        },
+        {
+            "__class__": "Paziente",
+            "id_utente": "P2",
+            "nome": "matteo",
+            "cognome": "verdi",
+            "email": "verdi@mail.it",
+            "password": "pass",
+            "medico_riferimento_id": "M2",
+            "misurazioni": [],
+            "farmaci_assunti": [
+                {
+                    "__class__": "FarmacoAssunto",
+                    "farmaco_nome": "torta",
+                    "quantita": "14kg",
+                    "data_ora": "2025-06-08T18:49:59.397136"
+                }
+            ],
+            "terapia_prescritta": {
+                "__class__": "Terapia",
+                "farmaco": "popopo",
+                "assunzioni_giornaliere": 15,
+                "quantita": "14kg",
+                "indicazioni": "",
+                "medico_prescrittore_id": "M2"
+            },
+            "info_cliniche": {}
+        }
+    ],
+    "medici": [
+        {
+            "__class__": "Medico",
+            "id_utente": "M01",
+            "nome": "Mario",
+            "cognome": "Rossi",
+            "email": "m.rossi@clinica.it",
+            "password": "pass"
+        },
+        {
+            "__class__": "Medico",
+            "id_utente": "M2",
+            "nome": "pietro",
+            "cognome": "dal bosco",
+            "email": "pietro@gmail.com",
+            "password": "pass"
+        }
+    ],
+    "admins": [
+        {
+            "__class__": "Admin",
+            "id_utente": "A01",
+            "nome": "Admin",
+            "cognome": "System",
+            "email": "admin",
+            "password": "admin"
+        }
+    ]
+}
