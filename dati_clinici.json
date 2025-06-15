@@ -10,7 +10,14 @@
             "medico_riferimento_id": "M101",
             "misurazioni": [],
             "farmaci_assunti": [],
-            "terapia_prescritta": null,
+            "terapia_prescritta": {
+                "__class__": "Terapia",
+                "farmaco": "farmaco1",
+                "assunzioni_giornaliere": 2,
+                "quantita": "1g",
+                "indicazioni": "da prendere a stomaco vuoto",
+                "medico_prescrittore_id": "M101"
+            },
             "info_cliniche": {}
         }
     ],
